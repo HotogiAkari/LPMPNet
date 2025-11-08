@@ -5,7 +5,7 @@ from torch import Tensor
 
 class LearnableLPMPLayer(nn.Module):
     """
-    一个可微分的、可学习的LPMP特征提取层。
+    LPMP特征提取层。
     
     这个模块将传统LPMP算法的思想转化为一个端到端的神经网络层，
     可以直接嵌入到模型中进行训练。
