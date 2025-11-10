@@ -8,7 +8,7 @@ class LearnableLPMPLayer(nn.Module):
     LPMP特征提取层。
     
     这个模块将传统LPMP算法的思想转化为一个端到端的神经网络层
-    可以直接嵌入到模型中进行训练。
+    可以直接嵌入到模型中进行训练
     """
     def __init__(self, in_channels: int = 3, mid_channels: int = 64, descriptor_dim: int = 128):
         """
